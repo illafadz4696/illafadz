@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/themes/fadz.min.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.min.css" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.mobile-1.4.2.min.js"></script>
+</head>
+
+<body>
+<!-- panel luar -->
+<script>
+	$(function() {
+		$('#mypanel').panel().enhanceWithin();
+	});
+</script>
+		
+<div data-role="panel" id="mypanel" data-theme="b">
+    <!-- panel content goes here -->
+	<h3>Main Menu</h3>
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#pg1">Page 1</a></li>
+		<li><a href="#pg2">Page 2</a></li>
+		<li><a href="#pg3">Page 3</a></li>
+	</ul>
+
+</div>
+<!-- /panel -->	
+<!-- page -->
+
+<!-- page 1 -->
+<div data-role="page" id="pg1">
+
+  <!-- header -->
+  <div data-role="header" data-position="fixed">
+    <a href="#mypanel" data-rel="panel" data-icons="bars">Menu</a>
+	<h1>Winnie The Pooh & Friends</h1>
+  </div>
+  <!-- /header -->
+  
+  <!-- content -->
+  <div role="main" class="ui-content">
+	
+    <h3>Winnie The Pooh</h3>
+    <img src="img/pooh.jpg" width="50%"
+	style="display :block;margin : 0 auto;"/>
+	<p style="text-align : justify;">
+	Winnie-the-Pooh, also called Pooh Bear, is a fictional anthropomorphic bear created by A. A. Milne. The first collection of stories about the character was the book Winnie-the-Pooh (1926), and this was followed by The House at Pooh Corner (1928). Milne also included a poem about the bear in the children’s verse book When We Were Very Young (1924) and many more in Now We Are Six (1927). All four volumes were illustrated by E. H. Shepard.
+(Hyphens in the character's name were dropped by Disney when the company adapted the Pooh stories into a series of features that became one of its most successful franchises.)
+The Pooh stories have been translated into many languages, including Alexander Lenard's Latin translation, Winnie ille Pu, which was first published in 1958, and, in 1960, became the only Latin book ever to have been featured on The New York Times Best Seller list.[1]
+In popular film adaptations, Pooh Bear has been voiced by actors Sterling Holloway, Hal Smith, and Jim Cummings in English and Yevgeny Leonov in Russian.
+	<p>Click
+    <a href="#pg2"class="ui-btn" data-transition="slidedown">Page 2</a>
+    <a href="#pg3"class="ui-btn" data-transition="flip">Page 3</a>
+    </p>
+	
+  </div>
+  <!-- /content -->
+  
+  <!-- footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+    <ul>
+        <li><a data-icon="home" class="ui-btn-active ui-state persist">Page 1</a></li>
+        <li><a data-icon="star" href="#pg2">Page 2</a></li>
+        <li><a data-icon="alert" href="#pg3">Page 3</a></li>
+    </ul>
+</div><!-- /navbar -->
+  </div>
+  <!-- /footer -->
+
+</div>
+<!-- /page 1 -->
+
+<!-- page 2 -->
+<div data-role="page"  id="pg2" data-theme="b">
+
+  <!-- header -->
+  <div data-role="header" data-add-back-btn="true" data-position="fixed">
+    <a href="#mypanel" data-rel="panel" data-icons="bars">Menu</a>
+	<a href="#" data-rel="back" class="ui-btn-right" data-icon="carat-l">Back</a>
+	<h1>Winnie The Pooh & Friends</h1>
+  </div>
+  <!-- /header -->
+  
+  <!-- content -->
+  <div role="main" class="ui-content">
+	<div data-role="collapsibleset"
+	<h3>His Friends</h3>
+	
+	<div data-role="collapsible">
+         <h4>Donald Duck</h4>
+	     <img src="img/donald.jpg" width="50%"
+	     style="display :block;margin : 0 auto;"/>
+	     <p style= "text-align : justify;">
+          Donald Fauntleroy Duck or Donald Duck is a funny animal cartoon character created in 1934 at Walt Disney Productions. Donald is an anthropomorphic white duck with a yellow-orange bill, legs, and feet. He typically wears a sailor suit with a cap and a black or red bow tie. Donald is most famous for his semi-intelligible speech and his mischievous and irritable personality. Along with his friend Mickey Mouse, Donald is one of the most popular Disney characters and was included in TV Guide's list of the 50 greatest cartoon characters of all time in 2002.[1] He has appeared in more films than any other Disney character, listed as appearing in approximately 178 theatrical films compared to Mickey Mouse's 137, and is the fifth most published comic book character in the world after Superman, Batman, Spider-Man, and Wolverine.[2]
+          Donald Duck rose to fame with his comedic roles in animated cartoons. His distinctive voice was created by Clarence Nash, who performed the role for 50 years. Donald's first appearance was in The Wise Little Hen (1934), but it was his second appearance in Orphan's Benefit which introduced him as a temperamental comic foil to Mickey Mouse. Donald had his own show. Throughout the next two decades Donald appeared in over 150 theatrical films, several of which were recognized at the Academy Awards. In the 1930s he typically appeared as part of a comic trio with Mickey and Goofy and was given his own film series in 1937, starting with Don Donald. These films introduced Donald's girlfriend Daisy Duck and sometimes featured his three nephews Huey, Dewey, and Louie. After the 1956 film Chips Ahoy, Donald appeared primarily in educational films before eventually returning to theatrical animation in Mickey's Christmas Carol (1983). His most recent appearance in a theatrical film was 1999's Fantasia 2000. Donald has also appeared in direct-to-video features such as Mickey's Once Upon a Christmas (1999) and The Three Musketeers (2004) as well as television programs such as DuckTales (1987–1990), Quack Pack (1996), and Mickey Mouse Clubhouse (2006–2013).[3]
+          Beyond animation Donald is primarily known for his appearances in comics, both in newspaper strips and comic books. Donald was most famously drawn by Al Taliaferro, Carl Barks, and Don Rosa. Barks in particular is credited for greatly expanding the "duck universe", the world in which Donald lives, and creating many additional characters such as Donald's maternal uncle Scrooge McDuck. Today Donald is a very popular character in Europe, particularly in the Low Countries and Scandinavian countries where his weekly magazine has remained the most popular comics publication for over 50 years. Disney comics' fandom is sometimes referred to as "Donaldism", a term which originated in Norway. (Norwegian: Donaldisme) He has also made video game appearances, such as QuackShot (1991), Donald Duck: and Kingdom Hearts (2002).[4][5]</p>
+    </div>
+    
+	<div data-role="collapsible">
+         <h4>Mickey Mouse</h4>
+	     <img src="img/mickey.jpg" width="50%"
+	     style="display :block;margin : 0 auto;"/>
+	     <p style= "text-align : justify;">
+		  Mickey Mouse is a funny animal cartoon character and the official mascot of The Walt Disney Company. He was created by Walt Disney and Ub Iwerks at the Walt Disney Studios in 1928. An anthropomorphic mouse who typically wears red shorts, large yellow shoes, and white gloves, Mickey has become one of the most recognizable cartoon characters in the world.
+          Mickey first was seen in a single test screening (Plane Crazy). Mickey officially debuted in the short film Steamboat Willie (1928), one of the first sound cartoons. He went on to appear in over 130 films, including The Band Concert (1935), Brave Little Tailor (1938), and Fantasia (1940). Mickey appeared primarily in short films, but also occasionally in feature-length films. Ten of Mickey's cartoons were nominated for the Academy Award for Best Animated Short Film, one of which, Lend a Paw, won the award in 1942. In 1978, Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame.
+          Beginning in 1930, Mickey has also been featured extensively as a comic strip character. His self-titled newspaper strip, drawn primarily by Floyd Gottfredson, ran for 45 years. Mickey has also appeared in comic books and in television series such as The Mickey Mouse Club (1955–1996) and others. He also appears in other media such as video games as well as merchandising, and is a meetable character at the Disney parks.
+          Mickey generally appears alongside his girlfriend Minnie Mouse, his pet dog Pluto, his friends Donald Duck, and Goofy, and his nemesis Pete, among others (see Mickey Mouse universe). Originally characterized as a mischievous antihero, Mickey's increasing popularity led to his being rebranded as an everyman, usually seen as a flawed, but adventurous hero. In 2009, Disney began to rebrand the character again by putting less emphasis on his pleasant, cheerful side and reintroducing the more mischievous and adventurous sides of his personality, beginning with the video game Epic Mickey.[3]
+	</div>
+	
+	<div data-role="collapsible">
+         <h4>Minnie Mouse</h4>
+	     <img src="img/minnie.jpg" width="50%"
+	     style="display :block;margin : 0 auto;"/>
+	     <p style= "text-align : justify;">
+		 Minnie Mouse is a funny animal cartoon character created by Ub Iwerks and Walt Disney. The comic strip story "The Gleam" (published January 19–May 2, 1942) by Merrill De Maris and Floyd Gottfredson first gave her full name as Minerva Mouse; this full name is seldom used. Minnie is currently voiced by actress Russi Taylor. Both Minnie and Mickey were first drawn in 1928 by Ub Iwerks.
+         The comic strip story "Mr. Slicker and the Egg Robbers" (published September 22–December 26, 1930) introduced her father Marcus Mouse and her unnamed mother, both farmers. The same story featured photographs of Minnie's uncle Milton Mouse with his family and her grandparents Marshal Mouse and Matilda Mouse. Her best known relatives, however, remain her uncle Mortimer Mouse and her twin nieces, Millie and Melody Mouse, though most often a single niece, Melody, appears. In many appearances, Minnie is presented as the girlfriend of Mickey Mouse, a close friend of Daisy Duck,[3] and usually a friend to Clarabelle Cow.
+	</div>
+	</div>
+	
+	<p>Click
+    <a href="#pg3"class="ui-btn" data-transition="flip">Next</a>
+	<a href="#pg1"class="ui-btn" data-transition="flow">Back</a>
+    </p>
+	
+  </div>
+  <!-- /content -->
+  
+  <!-- footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+		<ul>
+			<li><a data-icon="home" href="#pg1">Page 1</a></li>
+			<li><a data-icon="star" class="ui-btn-active ui-state persist">Page 2</a></li>
+			<li><a data-icon="alert" href="#pg3">Page 3</a></li>
+		</ul>
+	</div><!-- /navbar -->
+  </div>
+  <!-- /footer -->
+
+</div>
+<!-- /page 2 -->
+
+<!-- page 3 -->
+<div data-role="page" id="pg3" data-theme="c">
+  <!-- header -->
+  <div data-role="header" data-add-back-btn="true" data-position="fixed">
+    <a href="#mypanel" data-rel="panel" data-icons="bars">Menu</a>
+	<a href="#" data-rel="back" class="ui-btn-right" data-icon="carat-l">Back</a>
+	<h1>Winnie The Pooh & Friends</h1>
+  </div>
+  <!-- /header -->
+  
+  <!-- content -->
+  <div role="main" class="ui-content">
+  
+	<h3>Minions Club</h3>
+	<ul data-role="listview" data-inset="true">
+	    <li>
+	        <a href="#pop1" data-rel="popup">
+			<img src="img/miss b.jpg" width="150" />
+			<h3>Miss Britney</h3>
+			<p>Sister</p>
+			</a>
+		</li>
+		<li>
+		    <a href="#pop2" data-rel="popup">
+			<img src="img/miss r.jpg" width="150" />
+			<h3>Miss Rihanna</h3>
+			<p>Sister</p>
+			</a>
+		</li>
+		<li>
+		    <a href="#pop3" data-rel="popup">
+		    <img src="img/mr a.jpg" width="150" />
+			<h3>Mr Adam</h3>
+            <p>Brother</p>
+			</a>
+		</li>	
+    </ul>
+	<!-- kumpulan popup untuk setiap list -->
+	<div data-role="popup" id="pop1"style="max-width:400px;">
+	        <ul data-role="listview">
+                    <li><a href="+60152467899" class="ui-btn ui-btn-icon-left ui-icon-phone">Call</a>
+					</li>
+                    <li><a href="+60152467899" class="ui-btn ui-btn-icon-left ui-icon-edit">SMS</a>
+					</li>
+                    <li><a href="mailto:miss.b@yahoo.com" class="ui-btn ui-btn-icon-left ui-icon-mail">Email</a>
+					</li>
+            </ul>
+    </div>	
+    <div data-role="popup" id="pop2"style="max-width:400px;">
+	        <ul data-role="listview">
+                    <li><a href="+60123699456" class="ui-btn ui-btn-icon-left ui-icon-phone">Call</a>
+					</li>
+                    <li><a href="+60123699456" class="ui-btn ui-btn-icon-left ui-icon-edit">SMS</a>
+					</li>
+                    <li><a href="mailto:miss.r@yahoo.com" class="ui-btn ui-btn-icon-left ui-icon-mail">Email</a>
+					</li>
+            </ul>
+    </div>
+  	<div data-role="popup" id="pop3"style="max-width:400px;">
+	        <ul data-role="listview">
+                    <li><a href="+60134567892" class="ui-btn ui-btn-icon-left ui-icon-phone">Call</a>
+					</li>
+                    <li><a href="+60134567892" class="ui-btn ui-btn-icon-left ui-icon-edit">SMS</a>
+					</li>
+                    <li><a href="mailto:mr.a@yahoo.com" class="ui-btn ui-btn-icon-left ui-icon-mail">Email</a>
+					</li>
+            </ul>
+    </div>	
+	
+	
+	
+  
+
+	
+  </div>
+  <!-- /content -->
+  
+  <!-- footer -->
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+    <ul>
+        <li><a data-icon="home" href="#pg1">Page 1</a></li>
+        <li><a data-icon="star" href="#pg2">Page 2</a></li>
+        <li><a data-icon="alert" class="ui-btn-active ui-state persist">Page 3</a></li>
+    </ul>
+	</div><!-- /navbar -->
+  </div>
+  <!-- /footer -->
+
+</div>
+<!-- /page 3 -->
+</body>
+
+</html>
